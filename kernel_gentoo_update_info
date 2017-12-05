@@ -1,0 +1,25 @@
+update_kernel{
+
+emerge gentoo-sources && \
+
+eselect kernel set 2 && \
+
+cd /usr/src/linux
+
+cp /usr/src/linux-4.9.16-gentoo/.config ./
+
+make oldconfig
+
+make && make modules_install && make install
+
+emerge @module-rebuild
+
+cp /usr/src/linux/arch/x86_64/boot/bzImage /boot/bzImage.efi
+
+mount -o remount /sys/firmware/efi/efivars -o rw,nosuid,nodev,noexec,noatime
+
+efibootmgr --create --label 'Gentoo-4.12.12' --loader 'bzImage.efi' --part 1
+
+efibootmgr -b 0 -B # 0 - first value
+
+} 
