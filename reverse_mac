@@ -1,0 +1,11 @@
+
+#!/bin/bash
+
+if [ `expr index "$*" ":"` -ne 0 ]
+then
+  echo "$*" | tr : -
+  else
+    echo "$*" | tr - :
+    
+    fi | tr "[A-Z]" "[a-z]"
+    exit 0

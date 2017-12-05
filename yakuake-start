@@ -1,0 +1,27 @@
+#!/bin/bash
+# Yakuake-start-work
+#check work conection
+if ping -i 0.2 -c 2 192.168.75.1
+#print    
+then echo "WORK"
+#open new tab and rename, then loggining on "catera"
+/home/dima/Scripts/yakuake-session/yakuake-session -t "catera1" -h --hold -e /home/dima/Scripts/catera
+#open new tab and rename, then loggining on "flo"
+/home/dima/Scripts/yakuake-session/yakuake-session -t "flo" -h --hold -e /home/dima/Scripts/flo 
+#open new tab and rename, then loggining on "vipa"
+/home/dima/Scripts/yakuake-session/yakuake-session -t "vipa" -h --hold -e /home/dima/Scripts/vipa
+#open new tab and rename, then loggining on "biza"
+/home/dima/Scripts/yakuake-session/yakuake-session -t "biza" -h --hold -e /home/dima/Scripts/biza
+#open new tab and rename, then loggining on "sip"
+/home/dima/Scripts/yakuake-session/yakuake-session -t "sip" -h --hold -e /home/dima/Scripts/sip
+#open new tab and rename, then loggining on "iron"
+/home/dima/Scripts/yakuake-session/yakuake-session -t "iron" -h --hold -e /home/dima/Scripts/iron
+#open new tab and rename, then loggining on "catera"
+/home/dima/Scripts/yakuake-session/yakuake-session -t "catera2" -h --hold -e /home/dima/Scripts/catera
+#open new tab and rename, then loggining on "vtv6"
+/home/dima/Scripts/yakuake-session/yakuake-session -t "vtv" -h --hold -e /home/dima/Scripts/vtv
+#
+else echo "NO WORK"  
+fi
+
+

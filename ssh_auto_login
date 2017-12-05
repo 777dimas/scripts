@@ -1,0 +1,14 @@
+#!/usr/bin/expect
+   $remote_server=
+   $my_user_id=
+   $my_password=
+   ############
+   spawn ssh -l my_user_id remote_server
+   expect "username:"
+   # send "my_user_id\r"
+   expect "password:"
+   # send "my_password"
+   send "my_password\r"
+   expect "%"
+   interact
+
