@@ -29,24 +29,24 @@ proc send_a {} {
 spawn telnet $host
 
 expect {
-  "***************** User Access Login ********************" { send "admin\r"; send "bonOdrib\r" }
+  "***************** User Access Login ********************" { send "admin\r"; send "********\r" }
   "User" { send $userLogin; send $userPass }
 }
 sleep 0.5
 expect { 
-    "Incorrect Login/Password" { send "admin\r"; send "bonOdrib\r" }
-    "Fail!" { send "admin\r"; send "bonOdrib\r" ; expect { "Fail!" { send "admin\r"; send "solekam1\r" } } }
-    "Username:" { send "admin\r"; send "bonOdrib\r"; expect { "Username:" { send "admin\r"; send "solekam1\r" } } }
-    "Login invalid" { send "admin\r"; send "bonOdrib\r" }
+    "Incorrect Login/Password" { send "admin\r"; send "*********\r" }
+    "Fail!" { send "admin\r"; send "*********\r" ; expect { "Fail!" { send "admin\r"; send "*********\r" } } }
+    "Username:" { send "admin\r"; send "*********\r"; expect { "Username:" { send "admin\r"; send "*********\r" } } }
+    "Login invalid" { send "admin\r"; send "*********\r" }
 }
 sleep 0.5
 expect { 
-    DES-3200-26 { set switch 'des'; send "enable admin\r"; send "rhtgjcnm\r" }
-    oper# { set switch 'des'; send "enable admin\r"; send "bonOdrib\r" }
-    :4# { set switch 'des'; send "enable admin\r"; send "bonOdrib\r" }
-    ECS35 { set switch 'edgecore'; send "enable\r"; send "bonOdrib\r"; send "solekam1\r"; send "rhtgjcnm\r" }
-    ES35 { set switch 'edgecore'; send "enable\r"; send "bonOdrib\r"; send "solekam1\r"; send "rhtgjcnm\r" }
-    ZyXEL { set switch 'ZyXEL'; send "enable\r"; send "bonOdrib\r" }
+    DES-3200-26 { set switch 'des'; send "enable admin\r"; send "*********\r" }
+    oper# { set switch 'des'; send "enable admin\r"; send "*********\r" }
+    :4# { set switch 'des'; send "enable admin\r"; send "*********\r" }
+    ECS35 { set switch 'edgecore'; send "enable\r"; send "*********\r"; send "*********\r"; send "*********\r" }
+    ES35 { set switch 'edgecore'; send "enable\r"; send "*********\r"; send "*********\r"; send "*********\r" }
+    ZyXEL { set switch 'ZyXEL'; send "enable\r"; send "*********\r" }
     TPLINK2600 { set switch 4; send "enable\r" }
 }
 if { $mode <= {26} && $switch == {'des'} } {
