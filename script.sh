@@ -1,8 +1,8 @@
 #!/bin/bash
 
-SRCDIR="/home/kriptex/Scripts/"
-DSTDIR="/home/kriptex/Backups/"
-FILENAME=scripts_$(date +%H-%M_%d%m%Y).tar.gz 
+SRCDIR="/root/ftp"
+DSTDIR="/root/backup/ftp/"
+FILENAME=ftp_$(date +%H-%M_%d%m%Y).tar.gz 
 
 sudo tar -zcPf $DSTDIR$FILENAME $SRCDIR
 
