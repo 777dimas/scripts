@@ -1,5 +1,5 @@
 #!/bin/sh
-# swap 1Gb
+# add swap 1Gb
 dd if=/dev/zero of=/swapfile bs=1M count=1024
 mkswap /swapfile
 chmod 600 /swapfile
