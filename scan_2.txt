@@ -1,0 +1,454 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-01-25 17:53 EET
+Illegal character(s) in hostname -- replacing with '*'
+Illegal character(s) in hostname -- replacing with '*'
+Illegal character(s) in hostname -- replacing with '*'
+Illegal character(s) in hostname -- replacing with '*'
+Illegal character(s) in hostname -- replacing with '*'
+Illegal character(s) in hostname -- replacing with '*'
+Illegal character(s) in hostname -- replacing with '*'
+Illegal character(s) in hostname -- replacing with '*'
+Illegal character(s) in hostname -- replacing with '*'
+Illegal character(s) in hostname -- replacing with '*'
+Illegal character(s) in hostname -- replacing with '*'
+Illegal character(s) in hostname -- replacing with '*'
+Nmap scan report for 172.16.2.1
+Host is up (0.00089s latency).
+MAC Address: 34:0A:98:69:68:35 (Huawei Technologies)
+Nmap scan report for ts_00e04c620e2b.kulinichi.local (172.16.2.5)
+Host is up (0.00083s latency).
+MAC Address: 00:E0:4C:62:0E:2B (Realtek Semiconductor)
+Nmap scan report for 172.16.2.6
+Host is up (0.0013s latency).
+MAC Address: 04:91:62:24:06:B6 (Microchip Technology)
+Nmap scan report for bhm-kozlov.kulinichi.local (172.16.2.7)
+Host is up (0.00083s latency).
+MAC Address: 24:4B:FE:81:77:7E (Asustek Computer)
+Nmap scan report for wtw00b0d0d5064b.kulinichi.local (172.16.2.8)
+Host is up (0.00082s latency).
+MAC Address: 00:B0:D0:D5:06:4B (Dell)
+Nmap scan report for 172.16.2.9
+Host is up (1.1s latency).
+MAC Address: 00:1C:25:DD:6C:4C (Hon Hai Precision Ind.)
+Nmap scan report for wtw00b0d09a375d.kulinichi.local (172.16.2.10)
+Host is up (0.00082s latency).
+MAC Address: 00:B0:D0:9A:37:5D (Dell)
+Nmap scan report for wtw00e04c008ed0.kulinichi.local (172.16.2.11)
+Host is up (0.00080s latency).
+MAC Address: 00:E0:4C:00:8E:D0 (Realtek Semiconductor)
+Nmap scan report for redminote7-redminote.kulinichi.local (172.16.2.12)
+Host is up (0.00088s latency).
+MAC Address: 1C:1B:0D:B0:E5:77 (Giga-byte Technology)
+Nmap scan report for wtwd8cb8a3a4643.kulinichi.local (172.16.2.13)
+Host is up (0.00053s latency).
+MAC Address: D8:CB:8A:3A:46:43 (Micro-star Intl)
+Nmap scan report for cub2-ap-level2.kulinichi.local (172.16.2.14)
+Host is up (0.00064s latency).
+MAC Address: C4:AD:34:74:39:F4 (Routerboard.com)
+Nmap scan report for wtw00b0d0d5058c.kulinichi.local (172.16.2.15)
+Host is up (0.00078s latency).
+MAC Address: 00:B0:D0:D5:05:8C (Dell)
+Nmap scan report for outlink01.kulinichi.local (172.16.2.16)
+Host is up (0.00078s latency).
+MAC Address: 1C:1B:0D:8F:42:D6 (Giga-byte Technology)
+Nmap scan report for ilocz204306sv.kulinichi.local (172.16.2.17)
+Host is up (0.00063s latency).
+MAC Address: B4:7A:F1:3C:01:78 (Hewlett Packard Enterprise)
+Nmap scan report for 172.16.2.18
+Host is up (0.00078s latency).
+MAC Address: 0C:C4:7A:EE:99:E4 (Super Micro Computer)
+Nmap scan report for wtw00224da0304b.kulinichi.local (172.16.2.19)
+Host is up (1.1s latency).
+MAC Address: 00:22:4D:A0:30:4B (Mitac International)
+Nmap scan report for tl-sg105pe.kulinichi.local (172.16.2.20)
+Host is up (15s latency).
+MAC Address: 3C:84:6A:61:99:EE (Tp-link Technologies)
+Nmap scan report for tl-wr741nd.kulinichi.local (172.16.2.21)
+Host is up (1.1s latency).
+MAC Address: E8:94:F6:71:A3:4B (Tp-link Technologies)
+Nmap scan report for 172.16.2.22
+Host is up (0.0011s latency).
+MAC Address: C0:74:AD:2A:8D:E0 (Grandstream Networks)
+Nmap scan report for xrx9c934e719e44.kulinichi.local (172.16.2.25)
+Host is up (0.0012s latency).
+MAC Address: 9C:93:4E:71:9E:44 (Xerox)
+Nmap scan report for 172.16.2.26
+Host is up (0.00075s latency).
+MAC Address: B4:A3:82:E2:E3:76 (Hangzhou Hikvision Digital Technology)
+Nmap scan report for wr720n.kulinichi.local (172.16.2.27)
+Host is up (0.00066s latency).
+MAC Address: 14:CC:20:33:2C:A3 (Tp-link Technologies)
+Nmap scan report for 172.16.2.28
+Host is up (0.00063s latency).
+MAC Address: 94:DE:80:E3:99:55 (Giga-byte Technology)
+Nmap scan report for app2.kulinichi.local (172.16.2.30)
+Host is up (0.00080s latency).
+MAC Address: 1C:1B:0D:B0:E4:1D (Giga-byte Technology)
+Nmap scan report for huawei_p_smart+-79ab77a20.kulinichi.local (172.16.2.32)
+Host is up (0.00078s latency).
+MAC Address: 18:31:BF:E1:58:21 (Asustek Computer)
+Nmap scan report for 802aa82cd4cf.kulinichi.local (172.16.2.33)
+Host is up (0.0011s latency).
+MAC Address: 80:2A:A8:2C:D4:CF (Ubiquiti Networks)
+Nmap scan report for wtw7085c26d9261.kulinichi.local (172.16.2.35)
+Host is up (0.00083s latency).
+MAC Address: 70:85:C2:6D:92:61 (ASRock Incorporation)
+Nmap scan report for 172.16.2.37
+Host is up (0.00092s latency).
+MAC Address: B8:69:F4:FC:F3:85 (Routerboard.com)
+Nmap scan report for desktop-j0cbeeq.kulinichi.local (172.16.2.41)
+Host is up (0.00092s latency).
+MAC Address: F8:B4:6A:A8:2B:93 (Hewlett Packard)
+Nmap scan report for 172.16.2.42
+Host is up (0.0010s latency).
+MAC Address: 68:27:19:E3:B5:35 (Microchip Technology)
+Nmap scan report for galaxy-a02.kulinichi.local (172.16.2.43)
+Host is up (16s latency).
+MAC Address: 3C:84:6A:61:96:86 (Tp-link Technologies)
+Nmap scan report for ilocz20190ml7.kulinichi.local (172.16.2.48)
+Host is up (0.00081s latency).
+MAC Address: 94:40:C9:F5:D7:FE (Hewlett Packard Enterprise)
+Nmap scan report for wtwd8cb8a100d2b.kulinichi.local (172.16.2.49)
+Host is up (0.00080s latency).
+MAC Address: D8:CB:8A:10:0D:2B (Micro-star Intl)
+Nmap scan report for mikrotik.kulinichi.local (172.16.2.50)
+Host is up (0.00081s latency).
+MAC Address: B8:69:F4:A6:C7:C2 (Routerboard.com)
+Nmap scan report for tl-sg105pe.kulinichi.local (172.16.2.51)
+Host is up (0.00078s latency).
+MAC Address: 00:15:5D:64:6F:08 (Microsoft)
+Nmap scan report for ts-cdu.kulinichi.local (172.16.2.54)
+Host is up (0.00071s latency).
+MAC Address: 00:15:5D:64:6F:01 (Microsoft)
+Nmap scan report for realme-5-pro.kulinichi.local (172.16.2.56)
+Host is up (0.00075s latency).
+MAC Address: 18:31:BF:E1:59:18 (Asustek Computer)
+Nmap scan report for 172.16.2.59
+Host is up (0.16s latency).
+MAC Address: 00:03:27:11:5A:B7 (Act'l)
+Nmap scan report for wtw2c56dc3a1a04.kulinichi.local (172.16.2.62)
+Host is up (0.00093s latency).
+MAC Address: 2C:56:DC:3A:1A:04 (Asustek Computer)
+Nmap scan report for mikrotik.kulinichi.local (172.16.2.65)
+Host is up (0.00091s latency).
+MAC Address: 74:4D:28:C6:05:31 (Routerboard.com)
+Nmap scan report for wtwd8cb8a3e0971.kulinichi.local (172.16.2.66)
+Host is up (1.1s latency).
+MAC Address: D8:CB:8A:3E:09:71 (Micro-star Intl)
+Nmap scan report for ts-cdu.kulinichi.local (172.16.2.68)
+Host is up (1.1s latency).
+MAC Address: 00:15:5D:64:6F:02 (Microsoft)
+Nmap scan report for wtw408d5c553c2d.kulinichi.local (172.16.2.71)
+Host is up (0.00075s latency).
+MAC Address: 40:8D:5C:55:3C:2D (Giga-byte Technology)
+Nmap scan report for 172.16.2.72
+Host is up (0.00089s latency).
+MAC Address: 00:03:27:11:A2:8F (Act'l)
+Nmap scan report for 172.16.2.74
+Host is up (1.1s latency).
+MAC Address: C0:74:AD:2A:8D:D3 (Grandstream Networks)
+Nmap scan report for 172.16.2.79
+Host is up (0.00075s latency).
+MAC Address: 9C:AE:D3:B0:07:AD (Seiko Epson)
+Nmap scan report for cub2-ap-level1.kulinichi.local (172.16.2.82)
+Host is up (0.00079s latency).
+MAC Address: C4:AD:34:74:39:9B (Routerboard.com)
+Nmap scan report for 172.16.2.83
+Host is up (0.00079s latency).
+MAC Address: 00:C0:A2:04:F2:C3 (Intermedium A/S)
+Nmap scan report for 172.16.2.84
+Host is up (0.0012s latency).
+MAC Address: C0:74:AD:2A:91:CA (Grandstream Networks)
+Nmap scan report for honor_8x-d2c666415952df82.kulinichi.local (172.16.2.85)
+Host is up (0.0012s latency).
+MAC Address: 38:B8:EB:C3:B5:92 (Ieee Registration Authority)
+Nmap scan report for 172.16.2.86
+Host is up (0.16s latency).
+MAC Address: 04:91:62:24:06:DF (Microchip Technology)
+Nmap scan report for home-pc.kulinichi.local (172.16.2.87)
+Host is up (0.00079s latency).
+MAC Address: 2C:F0:5D:74:6F:66 (Micro-star Intl)
+Nmap scan report for 172.16.2.88
+Host is up (0.00093s latency).
+MAC Address: 00:0B:82:A9:33:0C (Grandstream Networks)
+Nmap scan report for 172.16.2.89
+Host is up (0.00080s latency).
+MAC Address: 70:4D:7B:86:18:AD (Asustek Computer)
+Nmap scan report for 172.16.2.90
+Host is up (0.0028s latency).
+MAC Address: BC:E7:12:7D:FB:C0 (Cisco Systems)
+Nmap scan report for wtwd8cb8a3e03e8.kulinichi.local (172.16.2.92)
+Host is up (0.00076s latency).
+MAC Address: D8:CB:8A:3E:03:E8 (Micro-star Intl)
+Nmap scan report for agnks-plc.kulinichi.local (172.16.2.93)
+Host is up (1.1s latency).
+MAC Address: 70:85:C2:2C:9F:E0 (ASRock Incorporation)
+Nmap scan report for wtw94de80aaac14.kulinichi.local (172.16.2.94)
+Host is up (1.1s latency).
+MAC Address: 94:DE:80:AA:AC:14 (Giga-byte Technology)
+Nmap scan report for home-pc.kulinichi.local (172.16.2.95)
+Host is up (0.00097s latency).
+MAC Address: 2C:F0:5D:74:6F:98 (Micro-star Intl)
+Nmap scan report for wtw2c56dc3a195c.kulinichi.local (172.16.2.96)
+Host is up (0.00097s latency).
+MAC Address: 2C:56:DC:3A:19:5C (Asustek Computer)
+Nmap scan report for mikrotik.kulinichi.local (172.16.2.99)
+Host is up (0.00078s latency).
+MAC Address: 00:03:27:08:6F:41 (Act'l)
+Nmap scan report for pr-samsonov-03.kulinichi.local (172.16.2.101)
+Host is up (0.00077s latency).
+MAC Address: 00:15:5D:64:64:03 (Microsoft)
+Nmap scan report for 172.16.2.102
+Host is up (0.0011s latency).
+MAC Address: 00:0B:82:A9:33:0B (Grandstream Networks)
+Nmap scan report for ossu.kulinichi.local (172.16.2.103)
+Host is up (0.00077s latency).
+MAC Address: F0:9F:C2:90:EC:83 (Ubiquiti Networks)
+Nmap scan report for home-pc.kulinichi.local (172.16.2.105)
+Host is up (0.0011s latency).
+MAC Address: 2C:F0:5D:74:6F:3C (Micro-star Intl)
+Nmap scan report for wtw00224da35716.kulinichi.local (172.16.2.106)
+Host is up (0.00092s latency).
+MAC Address: 00:22:4D:A3:57:16 (Mitac International)
+Nmap scan report for it09.kulinichi.local (172.16.2.107)
+Host is up (0.00074s latency).
+MAC Address: 08:55:31:8B:FE:5A (Routerboard.com)
+Nmap scan report for wtwd8cb8a3a47c0.kulinichi.local (172.16.2.108)
+Host is up (0.00075s latency).
+MAC Address: D8:CB:8A:3A:47:C0 (Micro-star Intl)
+Nmap scan report for 172.16.2.111
+Host is up (0.0017s latency).
+MAC Address: 00:0B:82:FE:93:FF (Grandstream Networks)
+Nmap scan report for tl-wr743nd.kulinichi.local (172.16.2.113)
+Host is up (0.0013s latency).
+MAC Address: C4:6E:1F:F2:EE:9F (Tp-link Technologies)
+Nmap scan report for 172.16.2.114
+Host is up (1.1s latency).
+MAC Address: C8:60:00:70:B7:A0 (Asustek Computer)
+Nmap scan report for 172.16.2.116
+Host is up (3.4s latency).
+MAC Address: 74:4D:28:FF:7F:0C (Routerboard.com)
+Nmap scan report for wtw00224da01dac.kulinichi.local (172.16.2.117)
+Host is up (0.00099s latency).
+MAC Address: 00:22:4D:A0:1D:AC (Mitac International)
+Nmap scan report for 172.16.2.118
+Host is up (0.00097s latency).
+MAC Address: 00:0B:82:ED:7C:19 (Grandstream Networks)
+Nmap scan report for 172.16.2.120
+Host is up (0.00099s latency).
+MAC Address: 00:90:4C:C0:00:00 (Epigram)
+Nmap scan report for wtw2c56dc3a19b4.kulinichi.local (172.16.2.123)
+Host is up (0.0011s latency).
+MAC Address: 2C:56:DC:3A:19:B4 (Asustek Computer)
+Nmap scan report for 172.16.2.124
+Host is up (0.0011s latency).
+MAC Address: 18:A6:F7:AB:BF:21 (Tp-link Technologies)
+Nmap scan report for zavod07_pc1.kulinichi.local (172.16.2.127)
+Host is up (0.0011s latency).
+MAC Address: A8:5E:45:B6:A0:43 (Asustek Computer)
+Nmap scan report for 172.16.2.128
+Host is up (0.00054s latency).
+MAC Address: D8:CB:8A:9A:C6:AD (Micro-star Intl)
+Nmap scan report for mebel06.kulinichi.local (172.16.2.129)
+Host is up (0.0016s latency).
+MAC Address: 70:4D:7B:86:17:BA (Asustek Computer)
+Nmap scan report for wtwd8cb8a3e057d.kulinichi.local (172.16.2.131)
+Host is up (0.0011s latency).
+MAC Address: D8:CB:8A:3E:05:7D (Micro-star Intl)
+Nmap scan report for zavod-7*ap-2**workshop*the*middle*.kulinichi.local (172.16.2.132)
+Host is up (0.0011s latency).
+MAC Address: C4:AD:34:9D:0E:A4 (Routerboard.com)
+Nmap scan report for 172.16.2.136
+Host is up (0.0015s latency).
+MAC Address: C0:74:AD:2A:91:B9 (Grandstream Networks)
+Nmap scan report for buh31.kulinichi.local (172.16.2.138)
+Host is up (0.015s latency).
+MAC Address: 70:85:C2:7C:64:20 (ASRock Incorporation)
+Nmap scan report for zavod7_pc3.kulinichi.local (172.16.2.139)
+Host is up (0.0013s latency).
+MAC Address: A8:5E:45:B6:A0:4C (Asustek Computer)
+Nmap scan report for 172.16.2.145
+Host is up (0.0023s latency).
+MAC Address: 00:0B:82:C0:A3:71 (Grandstream Networks)
+Nmap scan report for wtw386077e8fb13.kulinichi.local (172.16.2.148)
+Host is up (0.00082s latency).
+MAC Address: 38:60:77:E8:FB:13 (Pegatron)
+Nmap scan report for asus22.kulinichi.local (172.16.2.149)
+Host is up (0.0018s latency).
+MAC Address: 24:4B:FE:2D:61:CA (Asustek Computer)
+Nmap scan report for 172.16.2.150
+Host is up (0.0011s latency).
+MAC Address: 00:22:4D:A0:1F:A6 (Mitac International)
+Nmap scan report for 172.16.2.152
+Host is up (0.00048s latency).
+MAC Address: 94:DE:80:12:4F:D2 (Giga-byte Technology)
+Nmap scan report for 172.16.2.153
+Host is up (0.00068s latency).
+MAC Address: 94:DE:80:66:D0:57 (Giga-byte Technology)
+Nmap scan report for tl-wr842n.kulinichi.local (172.16.2.154)
+Host is up (0.00097s latency).
+MAC Address: 40:8D:5C:2E:67:4D (Giga-byte Technology)
+Nmap scan report for 172.16.2.156
+Host is up (0.0013s latency).
+MAC Address: 04:91:62:66:0E:95 (Microchip Technology)
+Nmap scan report for wtwb42e99bb53ea.kulinichi.local (172.16.2.158)
+Host is up (0.00078s latency).
+MAC Address: B4:2E:99:BB:53:EA (Giga-byte Technology)
+Nmap scan report for 172.16.2.160
+Host is up (0.00077s latency).
+MAC Address: 94:DE:80:69:64:88 (Giga-byte Technology)
+Nmap scan report for admin-****.kulinichi.local (172.16.2.163)
+Host is up (0.0015s latency).
+MAC Address: FC:34:97:14:35:30 (Asustek Computer)
+Nmap scan report for ossuychet.kulinichi.local (172.16.2.164)
+Host is up (0.98s latency).
+MAC Address: 70:4D:7B:87:3A:B0 (Asustek Computer)
+Nmap scan report for 172.16.2.167
+Host is up (0.0012s latency).
+MAC Address: 44:D9:E7:30:7A:1D (Ubiquiti Networks)
+Nmap scan report for wtw7071bcae3f23.kulinichi.local (172.16.2.177)
+Host is up (0.0015s latency).
+MAC Address: 70:71:BC:AE:3F:23 (Pegatron)
+Nmap scan report for home-pc.kulinichi.local (172.16.2.178)
+Host is up (0.0014s latency).
+MAC Address: 2C:F0:5D:74:6F:39 (Micro-star Intl)
+Nmap scan report for galaxy-a21s.kulinichi.local (172.16.2.179)
+Host is up (0.0012s latency).
+MAC Address: 44:1E:A1:56:39:54 (Hewlett Packard)
+Nmap scan report for wtwd8cb8a3e04ba.kulinichi.local (172.16.2.180)
+Host is up (0.00068s latency).
+MAC Address: D8:CB:8A:3E:04:BA (Micro-star Intl)
+Nmap scan report for buh52.kulinichi.local (172.16.2.181)
+Host is up (0.0014s latency).
+MAC Address: A8:A1:59:61:0B:6F (ASRock Incorporation)
+Nmap scan report for priemnaya.kulinichi.local (172.16.2.184)
+Host is up (0.0014s latency).
+MAC Address: 74:4D:28:FF:06:75 (Routerboard.com)
+Nmap scan report for stest2.kulinichi.local (172.16.2.185)
+Host is up (0.0016s latency).
+MAC Address: 0C:C4:7A:DE:87:D5 (Super Micro Computer)
+Nmap scan report for tl-wr340g.kulinichi.local (172.16.2.186)
+Host is up (3.6s latency).
+MAC Address: 00:26:9E:1B:6B:F9 (Quanta Computer)
+Nmap scan report for 172.16.2.188
+Host is up (0.0015s latency).
+MAC Address: 00:25:90:C7:63:9E (Super Micro Computer)
+Nmap scan report for zavod-3*ap-1.kulinichi.local (172.16.2.189)
+Host is up (0.0015s latency).
+MAC Address: 08:55:31:8B:FE:95 (Routerboard.com)
+Nmap scan report for rozn-notebook.kulinichi.local (172.16.2.193)
+Host is up (0.00065s latency).
+MAC Address: 00:1D:60:E6:B9:48 (Asustek Computer)
+Nmap scan report for 172.16.2.194
+Host is up (0.0011s latency).
+MAC Address: 00:0B:82:ED:7D:C7 (Grandstream Networks)
+Nmap scan report for 172.16.2.196
+Host is up (0.00091s latency).
+MAC Address: 0C:C4:7A:37:66:6F (Super Micro Computer)
+Nmap scan report for 172.16.2.197
+Host is up (0.0011s latency).
+MAC Address: C0:74:AD:0E:7F:FF (Grandstream Networks)
+Nmap scan report for buh78.kulinichi.local (172.16.2.199)
+Host is up (0.0011s latency).
+MAC Address: 3C:7C:3F:18:13:C1 (Asustek Computer)
+Nmap scan report for 172.16.2.200
+Host is up (0.0010s latency).
+MAC Address: C4:EA:1D:F0:BC:6A (Technicolor Delivery Technologies Belgium NV)
+Nmap scan report for kolb02.kulinichi.local (172.16.2.202)
+Host is up (0.0010s latency).
+MAC Address: 7C:05:07:0D:AD:A2 (Pegatron)
+Nmap scan report for 172.16.2.203
+Host is up (0.00087s latency).
+MAC Address: 70:4D:7B:86:18:EE (Asustek Computer)
+Nmap scan report for 172.16.2.207
+Host is up (0.0013s latency).
+MAC Address: C0:74:AD:17:07:BF (Grandstream Networks)
+Nmap scan report for wtw00e04c62eb6b.kulinichi.local (172.16.2.208)
+Host is up (0.0010s latency).
+MAC Address: 00:E0:4C:62:EB:6B (Realtek Semiconductor)
+Nmap scan report for galaxy-a02.kulinichi.local (172.16.2.209)
+Host is up (0.065s latency).
+MAC Address: 2A:96:11:49:69:07 (Unknown)
+Nmap scan report for lab37.kulinichi.local (172.16.2.210)
+Host is up (0.0013s latency).
+MAC Address: 70:85:C2:B4:C5:C8 (ASRock Incorporation)
+Nmap scan report for 172.16.2.211
+Host is up (0.019s latency).
+MAC Address: EC:8E:B5:C0:9D:20 (Hewlett Packard)
+Nmap scan report for wtw2c56dc3a197a.kulinichi.local (172.16.2.212)
+Host is up (0.0012s latency).
+MAC Address: 2C:56:DC:3A:19:7A (Asustek Computer)
+Nmap scan report for 172.16.2.213
+Host is up (7.9s latency).
+MAC Address: 00:25:90:CE:A9:0C (Super Micro Computer)
+Nmap scan report for tender01.kulinichi.local (172.16.2.214)
+Host is up (0.21s latency).
+MAC Address: 74:E5:43:12:27:E8 (Liteon Technology)
+Nmap scan report for 8ob.kulinichi.local (172.16.2.215)
+Host is up (0.68s latency).
+MAC Address: 3C:95:09:CD:4A:37 (Liteon Technology)
+Nmap scan report for 172.16.2.216
+Host is up (0.00086s latency).
+MAC Address: 04:91:62:66:0F:4B (Microchip Technology)
+Nmap scan report for epsonafce18.kulinichi.local (172.16.2.217)
+Host is up (0.00081s latency).
+MAC Address: 9C:AE:D3:AF:CE:18 (Seiko Epson)
+Nmap scan report for ossu03.kulinichi.local (172.16.2.218)
+Host is up (0.00054s latency).
+MAC Address: 44:8A:5B:97:D0:5C (Micro-Star INT'L)
+Nmap scan report for host03.kulinichi.local (172.16.2.219)
+Host is up (0.00051s latency).
+MAC Address: AC:16:2D:76:EA:3D (Hewlett Packard)
+Nmap scan report for 172.16.2.220
+Host is up (0.00072s latency).
+MAC Address: CC:2D:E0:C0:98:41 (Routerboard.com)
+Nmap scan report for 172.16.2.222
+Host is up (0.00070s latency).
+MAC Address: 00:03:27:07:7D:7A (Act'l)
+Nmap scan report for it-dev-01.kulinichi.local (172.16.2.224)
+Host is up (0.00044s latency).
+MAC Address: 4C:CC:6A:06:E8:F9 (Micro-star Intl)
+Nmap scan report for 172.16.2.227
+Host is up (0.00081s latency).
+MAC Address: A8:A1:59:61:09:32 (ASRock Incorporation)
+Nmap scan report for 172.16.2.232
+Host is up (0.00071s latency).
+MAC Address: 7C:8B:CA:49:4B:89 (Tp-link Technologies)
+Nmap scan report for buh41.kulinichi.local (172.16.2.233)
+Host is up (0.00070s latency).
+MAC Address: 94:DE:80:12:4F:DA (Giga-byte Technology)
+Nmap scan report for zavod7economist.kulinichi.local (172.16.2.234)
+Host is up (0.00071s latency).
+MAC Address: 48:8F:5A:47:2D:3E (Routerboard.com)
+Nmap scan report for 172.16.2.235
+Host is up (0.00070s latency).
+MAC Address: A8:A1:59:61:0B:18 (ASRock Incorporation)
+Nmap scan report for sekretar02.kulinichi.local (172.16.2.236)
+Host is up (0.00070s latency).
+MAC Address: D4:5D:64:22:B7:79 (Asustek Computer)
+Nmap scan report for findirlaptop.kulinichi.local (172.16.2.237)
+Host is up (0.0013s latency).
+MAC Address: 9C:AE:D3:B4:D8:65 (Seiko Epson)
+Nmap scan report for 172.16.2.239
+Host is up (0.00097s latency).
+MAC Address: E0:07:1B:FE:2F:3C (Hewlett Packard Enterprise)
+Nmap scan report for home-pc.kulinichi.local (172.16.2.240)
+Host is up (0.0012s latency).
+MAC Address: A8:A1:59:3E:A7:13 (ASRock Incorporation)
+Nmap scan report for ilomxq42802gb.kulinichi.local (172.16.2.241)
+Host is up (11s latency).
+MAC Address: FC:15:B4:20:C7:9E (Hewlett Packard)
+Nmap scan report for 172.16.2.243
+Host is up (0.00086s latency).
+MAC Address: C0:74:AD:16:FD:90 (Grandstream Networks)
+Nmap scan report for zavod-7*ap-1.kulinichi.local (172.16.2.244)
+Host is up (0.00080s latency).
+MAC Address: 08:55:31:8C:01:99 (Routerboard.com)
+Nmap scan report for buh08.kulinichi.local (172.16.2.246)
+Host is up (0.00080s latency).
+MAC Address: A8:A1:59:61:0A:E8 (ASRock Incorporation)
+Nmap scan report for komdir01.kulinichi.local (172.16.2.250)
+Host is up (0.0013s latency).
+MAC Address: 1C:1B:0D:59:EE:D3 (Giga-byte Technology)
+Nmap scan report for 172.16.2.78
+Host is up.
+Nmap done: 256 IP addresses (147 hosts up) scanned in 32.80 seconds
