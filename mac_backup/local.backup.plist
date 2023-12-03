@@ -14,9 +14,9 @@
    <key>StartInterval</key>
    <integer>100</integer>
    <key>StandardOutPath</key>
-   <string>/Users/db/temp/backup.log</string>
+   <string>/Users/db/tmp/backup.log</string>
    <key>StandardErrorPath</key>
-   <string>/Users/db/temp/backup.err</string>
+   <string>/Users/db/tmp/backup.err</string>
    <key>RunAtLoad</key>
    <true/>
    <key>KeepAlive</key>
