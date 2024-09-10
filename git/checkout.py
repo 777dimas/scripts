@@ -1,9 +1,26 @@
+#!/usr/bin/python3.11
 import sys
+import os
+from git import Repo, Git
 
-from myutils import GitHelper
+class GitHelper:
+    def __init__(self):
+        self.repo = Repo(os.getcwd())
+        remotes = self.repo.remotes
+        branches = self.repo.git.branch("--all").split()
+        self.remote = None
+        self.master = "master"
+
+        remote_name = '777dimas'
+        if remote_name in remotes:
+            self.remote = remotes[remote_name]
+        else:
+            self.remote = remotes.origin
+
+        if "master" not in branches:
+            self.master = "main"
 
 class GitCheckout(GitHelper):
-
     def run(self, checkout_type, branch_name):
         if checkout_type == 'n':
             self.repo.git.checkout('HEAD', b=branch_name)
@@ -21,10 +38,10 @@ class GitCheckout(GitHelper):
 def main():
     helper = GitCheckout()
     if len(sys.argv) != 3:
-        helper.logger.error("Must pass branch name!")
+        print("Must pass checkout type and branch name!")
         sys.exit(1)
     helper.run(sys.argv[1], sys.argv[2])
 
-
 if __name__ == "__main__":
     main()
+
