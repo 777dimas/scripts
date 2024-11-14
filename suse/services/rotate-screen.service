@@ -1,0 +1,14 @@
+[Unit]
+Description=Auto Rotate Screen and Touchscreen
+After=graphical.target dbus.service
+
+[Service]
+ExecStart=/bin/bash /home/db/.config/scripts/rotate-screen.sh
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/your_username/.Xauthority
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
+

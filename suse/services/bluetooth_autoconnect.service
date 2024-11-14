@@ -1,0 +1,17 @@
+[Unit]
+Description=Bluetooth autoconnect service after login
+#After=default.target
+#Before=shutdown.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=false
+StandardOutput=journal
+ExecStart=/bin/bash -c 'bluetoothctl connect F4:16:13:63:67:46; sleep infinity'
+ExecStop=/bin/bash -c 'bluetoothctl disconnect F4:16:13:63:67:46'
+#Restart=always
+#RestartSec=10
+
+[Install]
+WantedBy=default.target
+#WantedBy=exit.target

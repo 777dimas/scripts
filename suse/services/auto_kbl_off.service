@@ -1,0 +1,17 @@
+[Unit]
+Description=Automatically turn off keyboard backlight after a timeout
+After=suspend.target sleep.target
+
+[Service]
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/db/.Xauthority
+ExecStart=/home/db/.config/scripts/auto_kbl_off.sh
+Restart=always
+RestartSec=10
+TimeoutSec=60
+
+ExecStopPost=/usr/bin/systemctl restart auto_kbl_off.service
+
+[Install]
+WantedBy=multi-user.target suspend.target sleep.target
+
