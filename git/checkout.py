@@ -1,4 +1,4 @@
-#!/usr/bin/python3.11
+#!/home/db/GIT/scripts/git/.venv/bin/python
 import sys
 import os
 from git import Repo, Git

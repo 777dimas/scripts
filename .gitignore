@@ -1,2 +1,12 @@
 mac_backup/vars.py
-mac_backup/.__pycache__
+
+.venv/
+**/.venv/
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
