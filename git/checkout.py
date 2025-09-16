@@ -5,7 +5,8 @@ from git import Repo, Git
 
 class GitHelper:
     def __init__(self):
-        self.repo = Repo(os.getcwd())
+        #self.repo = Repo(os.getcwd())
+        self.repo = Repo(os.getcwd(), search_parent_directories=True)
         remotes = self.repo.remotes
         branches = self.repo.git.branch("--all").split()
         self.remote = None
