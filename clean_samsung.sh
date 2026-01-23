@@ -173,9 +173,21 @@ PACKAGES=(
 
 echo "Starting cleanup of ${#PACKAGES[@]} packages..."
 
+INSTALLED_PACKAGES=$(adb shell pm list packages --user 0 | tr -d '\r')
+REMOVED_ANY=false
+
 for pkg in "${PACKAGES[@]}"; do
-    echo "Removing $pkg..."
-    adb shell pm uninstall -k --user 0 "$pkg"
+    if echo "$INSTALLED_PACKAGES" | grep -qFx "package:$pkg"; then
+        echo "Removing $pkg..."
+        adb shell pm uninstall -k --user 0 "$pkg"
+        REMOVED_ANY=true
+    else
+        echo "Skipping $pkg - not installed"
+    fi
 done
 
-echo "Cleanup complete! Reboot phone."
+if [ "$REMOVED_ANY" = true ]; then
+    echo "Cleanup complete! Reboot phone."
+else
+    echo "Cleanup complete! No changes made."
+fi
