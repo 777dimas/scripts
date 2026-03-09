@@ -78,9 +78,10 @@ PACKAGES=(
     com.samsung.android.ipsgeofence
     com.samsung.android.kidsinstaller
     com.samsung.android.knox.analytics.uploader
-    com.samsung.android.knox.attestation
-    com.samsung.android.knox.containercore
-    com.samsung.android.knox.kpecore
+    # com.samsung.android.knox.attestation # Necessery for security folder
+    # com.samsung.android.knox.containercore # Necessery for security folder
+    # com.samsung.android.knox.kpecore # Necessery for security folder
+    # com.samsung.knox.securefolder # Necessery for Security folder
     com.samsung.android.knox.pushmanager
     com.samsung.android.knox.zt.framework
     com.samsung.android.mapsagent
@@ -110,7 +111,6 @@ PACKAGES=(
     com.samsung.android.visualars
     com.samsung.faceservice
     com.samsung.gpuwatchapp
-    com.samsung.knox.securefolder
     com.samsung.oda.service
     com.samsung.safetyinformation
     com.samsung.sait.sohservice
