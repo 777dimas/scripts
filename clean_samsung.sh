@@ -45,7 +45,7 @@ PACKAGES=(
     com.samsung.android.aircommandmanager
     com.samsung.android.allshare.service.mediashare
     com.samsung.android.app.camera.sticker.facearavatar.preload
-    com.samsung.android.app.dressroom
+    # com.samsung.android.app.dressroom # Effected lock screen settings
     com.samsung.android.app.earphonetypec
     com.samsung.android.app.omcagent
     com.samsung.android.app.parentalcare
