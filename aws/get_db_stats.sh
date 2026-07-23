@@ -1,19 +1,29 @@
 #!/usr/bin/env bash
 # RDS PostgreSQL load + disk stats (prod-us). Read-only.
+# Auto-discovers ALL postgres instances (new ones included automatically).
 #
 # Usage:
 #   scripts/get_db_stats.sh [DAYS] [DB_NAME]
-#     DAYS     lookback window in days           (default: 7)
-#     DB_NAME  single instance to inspect        (default: all postgres instances)
+#     DAYS     lookback window in days      (default: 7)
+#     DB_NAME  single instance to inspect   (default: all postgres instances)
+#   scripts/get_db_stats.sh list            # just list all postgres db names (no metrics)
 #
 # Examples:
-#   scripts/get_db_stats.sh                 # all postgres, last 7 days
-#   scripts/get_db_stats.sh 14              # all postgres, last 14 days
-#   scripts/get_db_stats.sh 30 messages-db  # just messages-db, last 30 days
+#   scripts/get_db_stats.sh
+#   scripts/get_db_stats.sh 14
+#   scripts/get_db_stats.sh 30 messages-db
+#   scripts/get_db_stats.sh list
 set -euo pipefail
 
 export AWS_PROFILE=sso-om-prod
 export AWS_DEFAULT_REGION=us-east-1
+
+if [ "${1:-}" = "list" ]; then
+  aws rds describe-db-instances \
+    --query "DBInstances[?Engine=='postgres'].[DBInstanceIdentifier,EngineVersion,AllocatedStorage]" \
+    --output table
+  exit 0
+fi
 
 DAYS="${1:-7}"
 DB_FILTER="${2:-}"
@@ -32,7 +42,6 @@ echo "window: last ${DAYS}d (${START}Z .. ${END}Z)  target: ${DB_FILTER:-all pos
 printf "%-26s %5s %7s %7s %7s %7s %9s %7s %7s %7s\n" \
   DB ver avgCPU maxCPU avgConn maxConn avgWIOPS allocGB usedGB freeGB
 
-# instance list: single DB if given, otherwise auto-discover all postgres
 if [ -n "$DB_FILTER" ]; then
   QUERY="DBInstances[?DBInstanceIdentifier=='${DB_FILTER}'].[DBInstanceIdentifier,EngineVersion,AllocatedStorage]"
 else

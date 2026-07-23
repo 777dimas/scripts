@@ -4,17 +4,26 @@
 #
 # Usage:
 #   scripts/get_redis_stats.sh [DAYS] [CLUSTER_ID]
-#     DAYS        lookback window in days        (default: 7)
-#     CLUSTER_ID  single node id to inspect      (default: all redis nodes)
+#     DAYS        lookback window in days     (default: 7)
+#     CLUSTER_ID  single node id to inspect   (default: all redis nodes)
+#   scripts/get_redis_stats.sh list           # just list all redis node names (no metrics)
 #
 # Examples:
 #   scripts/get_redis_stats.sh
 #   scripts/get_redis_stats.sh 14
 #   scripts/get_redis_stats.sh 30 my-redis-0001-001
+#   scripts/get_redis_stats.sh list
 set -euo pipefail
 
 export AWS_PROFILE=sso-om-prod
 export AWS_DEFAULT_REGION=us-east-1
+
+if [ "${1:-}" = "list" ]; then
+  aws elasticache describe-cache-clusters --show-cache-node-info \
+    --query "CacheClusters[?Engine=='redis'].[CacheClusterId,EngineVersion]" \
+    --output table
+  exit 0
+fi
 
 DAYS="${1:-7}"
 NODE_FILTER="${2:-}"
